@@ -37,11 +37,5 @@ Password:
 ローカルサーバーを起動する。
 
 ```
-% pyth
-on manage.py runserver
-```
-
-管理画面をブラウザ表示する。
-```
-http://localhost:8000/admin
+% python manage.py runserver
 ```
