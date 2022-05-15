@@ -1,9 +1,9 @@
 # tasks-api
 
-ローカルにて、python 実行環境「my-venv」を構築する。
+git cloneした後、「tasks-api」フォルダ内に移動し、python 実行環境「my-venv」を構築する。
 
 ```
-% python3 -m venv my-venv
+% cd tasks-api; python3 -m venv my-venv
 ```
 
 python 実行環境「my-venv」を起動する。
@@ -38,4 +38,10 @@ Password:
 
 ```
 % python manage.py runserver
+```
+
+管理画面をブラウザ表示する。
+
+```
+http://localhsot:8000/admin
 ```
