@@ -43,5 +43,5 @@ Password:
 管理画面をブラウザ表示する。
 
 ```
-http://localhsot:8000/admin
+http://localhost:8000/admin
 ```
