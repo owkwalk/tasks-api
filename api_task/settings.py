@@ -14,7 +14,8 @@ SECRET_KEY = 'w!2%che3si0=4vuvu*+)#0oyx(sjnv=d-acc3n361$+v_6wwey'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
@@ -44,9 +45,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000"
-]
+# CORS_ORIGIN_WHITELIST = [
+#     "http://localhost:3000"
+# ]
+
+CORS_ORIGIN_WHITELIST = [*]
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
